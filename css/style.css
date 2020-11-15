@@ -1,0 +1,44 @@
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/basic-btn.css");
+@import url("components/bottle.css");
+@import url("components/card.css");
+@import url("components/media.css");
+
+body {
+	background-color: #1a1a2e;
+}
+
+h2 {
+	color: #ede68a;
+	font-family: pacifico,cursive;
+}
+
+p {
+	color:white;
+	font-family: varela round,sans-serif;
+}
+
+h1 {
+	font-family: lobster,cursive;
+	font-size: 50px;
+	text-shadow: 30px 30px 30px;
+}
+
+h3 {
+	font-family: lobster,cursive;
+	font-size: 30px;
+	text-shadow: 30px 30px 30px;
+}
+
+@media (max-width: 750px) {
+	.card {
+		width: 350px;
+	}
+}
+
+@media (max-width: 350px) {
+	.card {
+		width: 150px;
+	}
+}

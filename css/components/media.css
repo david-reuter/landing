@@ -1,0 +1,12 @@
+#media {
+	text-align: center;
+}
+
+#media h2 {
+	text-align: center;
+}
+
+#media a {
+	font-size: 50px;
+	color: #f3eac2;
+}
